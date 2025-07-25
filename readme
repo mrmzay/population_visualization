@@ -1,0 +1,32 @@
+# 🌍 Population Distribution Visualization (2022)
+
+This project visualizes the distribution of population across countries using the *World Bank Total Population* dataset (SP.POP.TOTL). It highlights the *top 10 most populous countries in 2022* using a bar chart.
+
+## 📊 Objective
+
+Create a simple and effective bar chart to analyze global population distribution using real-world open data.
+
+## 🗂 Dataset
+
+- *Source:* [World Bank Open Data](https://data.worldbank.org/indicator/SP.POP.TOTL)
+- *Indicator Code:* SP.POP.TOTL
+- *Format:* CSV (extracted from .zip)
+
+## 🛠 Tech Stack
+
+- Python
+- Pandas
+- Matplotlib
+- Seaborn
+
+## 📈 Output
+
+A bar chart showing the top 10 countries by population in 2022.
+
+## ▶ How to Run
+
+1. Download the dataset from the [World Bank website](https://data.worldbank.org/indicator/SP.POP.TOTL)
+2. Extract the ZIP and place the CSV in your project folder
+3. Install dependencies:
+   ```bash
+   pip install pandas matplotlib seaborn
